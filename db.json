@@ -1,0 +1,17 @@
+{
+	"cuentas": [{
+			"codigo_unico": "0000000000000000000001",
+			"numero_cuenta": "0000000000000000000001-1",
+			"sucursal_id": 1,
+			"saldo_actual": 100000.0,
+			"activa": true
+		},
+		{
+			"codigo_unico": "0000000000000000000002",
+			"numero_cuenta": "0000000000000000000002-2",
+			"sucursal_id": 2,
+			"saldo_actual": 200000.0,
+			"activa": true
+		}
+	]
+}
