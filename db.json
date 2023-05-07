@@ -17,6 +17,17 @@
 		"activa": true
 	  }
 	],
+	"sucursal": [
+	  {
+		"id": 1,
+		"nombre": "Sucursal San Martin",
+		"Calle": "Ayacucho",
+		"numero": "2400",
+		"localidad": "San Martin",
+		"provincia": "Buenos Aires",
+		"activa": true
+	  }
+	],
 	"movimientos": [
 	  {
 		"fecha": "2023-01-01 10:29:34.596935+00:00",
