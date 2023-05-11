@@ -7,7 +7,7 @@
 		"tipo": "deposito efectivo",
 		"concepto": "varios",
 		"cuenta_origen": {
-			"titular": "Juan Perez",
+			"titular": "Juan Perez Garin",
 			"nroDocumento": "1234567890",
 			"nroCuenta": "0000000000000000000001"
 		},
