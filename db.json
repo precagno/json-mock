@@ -17,20 +17,12 @@
 			"nroCuenta": "9999999999999999999999"
 		}
 	}],
-	"cuenta": [{
-			"id": 1,
-			"codigo_unico": "0000000000000000000001",
-			"numero_cuenta": "0000000000000000000001-1",
+	"cuentas": [{
+			"id": 1683429886806,
+			"codigo_unico": "1683429886806",
+			"numero_cuenta": "1683429886806-1",
 			"sucursal_id": 1,
 			"saldo_actual": 100000,
-			"activa": true
-		},
-		{
-			"id": 2,
-			"codigo_unico": "0000000000000000000002",
-			"numero_cuenta": "0000000000000000000002-2",
-			"sucursal_id": 2,
-			"saldo_actual": 200000,
 			"activa": true
 		}
 	],
@@ -45,35 +37,19 @@
 	}],
 	"movimientos": [{
 			"fecha": "2023-01-01 10:29:34.596935+00:00",
-			"id_cuenta_origen": "0000000000000000000001",
-			"id_cuenta_destino": "0000000000000000000002",
+			"id_cuenta_origen": "1683429886806",
+			"id_cuenta_destino": "1683429886801",
 			"monto": 1000,
 			"concepto": "varios",
 			"numero_operacion": "0001"
 		},
 		{
 			"fecha": "2023-01-02 11:29:34.596935+00:00",
-			"id_cuenta_origen": "0000000000000000000002",
-			"id_cuenta_destino": "0000000000000000000001",
+			"id_cuenta_origen": "16834298868061",
+			"id_cuenta_destino": "1683429886806",
 			"monto": 2000,
 			"concepto": "varios",
 			"numero_operacion": "0002"
-		},
-		{
-			"fecha": "2023-01-03 12:29:34.596935+00:00",
-			"id_cuenta_origen": "0000000000000000000001",
-			"id_cuenta_destino": "0000000000000000000003",
-			"monto": 3000,
-			"concepto": "varios",
-			"numero_operacion": "0003"
-		},
-		{
-			"fecha": "2023-01-04 13:29:34.596935+00:00",
-			"id_cuenta_origen": "0000000000000000000003",
-			"id_cuenta_destino": "0000000000000000000001",
-			"monto": 4000,
-			"concepto": "varios",
-			"numero_operacion": "0004"
 		}
 	]
 }
