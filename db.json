@@ -17,8 +17,8 @@
 			"nroCuenta": "9999999999999999999999"
 		}
 	}],
-	"cuentas": [{
-			"id": 1683429886806,
+	"cuenta": [{
+			"id": 1,
 			"codigo_unico": "1683429886806",
 			"numero_cuenta": "1683429886806-1",
 			"sucursal_id": 1,
@@ -51,5 +51,8 @@
 			"concepto": "varios",
 			"numero_operacion": "0002"
 		}
-	]
+	],
+	"ping":{
+		"status":"OK"
+	}
 }
