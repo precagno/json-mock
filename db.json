@@ -4,7 +4,7 @@
 		"idOperacion": 1,
 		"fecha": "2023-05-07T10:00:00.000Z",
 		"monto": 1000,
-		"tipo": "deposito efectivo",
+		"tipo": "D",
 		"concepto": "varios",
 		"cuenta_origen": {
 			"titular": "Juan Perez Garin",
@@ -12,46 +12,11 @@
 			"nroCuenta": "0000000000000000000001"
 		},
 		"cuenta_destino": {
-			"nombre": "Maria Gomez",
+			"titular": "Maria Gomez",
 			"nroDocumento": "0987654321",
-			"nroCuenta": "9999999999999999999999"
+			"nroCuenta": "01702046600000080010"
 		}
 	}],
-	"cuenta": [{
-			"id": 1,
-			"codigo_unico": "1683429886806",
-			"numero_cuenta": "1683429886806-1",
-			"sucursal_id": 1,
-			"saldo_actual": 100000,
-			"activa": true
-		}
-	],
-	"sucursal": [{
-		"id": 1,
-		"nombre": "Sucursal San Martin",
-		"Calle": "Ayacucho",
-		"numero": "2400",
-		"localidad": "San Martin",
-		"provincia": "Buenos Aires",
-		"activa": true
-	}],
-	"movimientos": [{
-			"fecha": "2023-01-01 10:29:34.596935+00:00",
-			"id_cuenta_origen": "1683429886806",
-			"id_cuenta_destino": "1683429886801",
-			"monto": 1000,
-			"concepto": "varios",
-			"numero_operacion": "0001"
-		},
-		{
-			"fecha": "2023-01-02 11:29:34.596935+00:00",
-			"id_cuenta_origen": "16834298868061",
-			"id_cuenta_destino": "1683429886806",
-			"monto": 2000,
-			"concepto": "varios",
-			"numero_operacion": "0002"
-		}
-	],
 	"ping":{
 		"status":"OK"
 	}
