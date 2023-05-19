@@ -1,20 +1,20 @@
 {
 	"movimientos-banco": [{
 		"id": 1,
-		"idOperacion": 1,
-		"fecha": "2023-05-07T10:00:00.000Z",
-		"monto": 1000,
+		"idOperacion": 3,
+		"fecha": "2023-05-18T12:00:00Z",
+		"monto": 10000,
 		"tipo": "D",
 		"concepto": "varios",
 		"cuenta_origen": {
 			"titular": "Juan Perez Garin",
-			"nroDocumento": "1234567890",
+			"nroDocumento": "32112325",
 			"nroCuenta": "0000000000000000000001"
 		},
 		"cuenta_destino": {
 			"titular": "Maria Gomez",
-			"nroDocumento": "0987654321",
-			"nroCuenta": "01702046600000080010"
+			"nroDocumento": "38606205",
+			"nroCuenta": "0170204660000008000010"
 		}
 	}],
 	"ping":{
