@@ -1,23 +1,25 @@
 {
-	"movimientos-banco": [{
-		"id": 1,
-		"idOperacion": 3,
-		"fecha": "2023-05-18T12:00:00Z",
-		"monto": 10000,
-		"tipo": "D",
-		"concepto": "varios",
-		"cuenta_origen": {
-			"titular": "Juan Perez Garin",
-			"nroDocumento": "32112325",
-			"nroCuenta": "0000000000000000000001"
-		},
-		"cuenta_destino": {
-			"titular": "Maria Gomez",
-			"nroDocumento": "38606205",
-			"nroCuenta": "0170204660000008000010"
+	"movimientos-banco": [
+		{
+			"id": 1,
+			"idOperacion": 3,
+			"fecha": "2023-05-18T12:00:00Z",
+			"monto": -10000,
+			"tipo": "D",
+			"concepto": "varios",
+			"cuenta_origen": {
+				"titular": "Juan Perez Garin",
+				"nroDocumento": "32112325",
+				"nroCuenta": "0000000000000000000001"
+			},
+			"cuenta_destino": {
+				"titular": "Maria Gomez",
+				"nroDocumento": "38606205",
+				"nroCuenta": "0170204660000008000010"
+			}
 		}
-	}],
-	"ping":{
-		"status":"OK"
+	],
+	"ping": {
+		"status": "OK"
 	}
 }
